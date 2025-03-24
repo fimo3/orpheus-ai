@@ -3,15 +3,33 @@
   --color-primary: #08182f;
   --color-secondary: #00a3ff;
   --color-accent: #e5e5e5;
+  --color-text: #000000;
 }
 
 @layer base {
   h1 {
     font-size: 4em;
-    text-shadow: 0 0 0.5em var(--color-secondary)
+    text-shadow: 0 0 0.25em var(--color-secondary)
+  }
+  h2 {
+    font-size: 3em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  p, a {
+    font-size: 1em;
   }
   body {
+    color: var(--color-accent);
+    font-weight: bold;
+    font-family:"Inter";
     background-color: var(--color-primary)
+  }
+  nav {
+    color: var(--color-text);
+    min-height: 100vh;
+    background-color: var(--color-secondary);
   }
   Button {
     color: var(--color-accent)
