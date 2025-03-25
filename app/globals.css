@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @theme {
   --color-primary: #08182f;
+  --color-primary-dark: #07152a;
   --color-secondary: #00a3ff;
   --color-accent: #e5e5e5;
   --color-text: #000000;
@@ -30,6 +31,10 @@
     color: var(--color-text);
     min-height: 100vh;
     background-color: var(--color-secondary);
+  }
+  #icon {
+    max-width:10%;
+    color:var(--color-accent);
   }
   Button {
     color: var(--color-accent)
