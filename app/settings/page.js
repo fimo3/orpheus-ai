@@ -1,6 +1,6 @@
 export default function Settings() {
   return (
-    <div className="ml-64 p-8">
+    <div>
       <h1 className="text-3xl font-bold mb-6">Settings</h1>
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
         <div className="border-b border-gray-200 dark:border-gray-700 px-6 py-4">
