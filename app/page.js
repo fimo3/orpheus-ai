@@ -161,13 +161,7 @@ export default function Dashboard() {
         />
 
         <Button
-          content={
-            <FontAwesomeIcon
-              icon={faPaperPlane}
-              className="h-4 w-4 text-white"
-              fixedWidth
-            />
-          }
+          content={<FontAwesomeIcon icon={faPaperPlane} fixedWidth />}
           className="bg-primary p-2 hover:bg-primary-dark transition-colors"
           aria-label="Send message"
         />
